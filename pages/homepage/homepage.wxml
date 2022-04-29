@@ -1,0 +1,16 @@
+
+<view class="pageContainer">
+  <view class="box flex-row" >
+    <view class="padding-sm">
+      <text class="r">欢迎使用strdsty小程序!   轻轻一点方便您的日常出行小助手。本页面为用户自愿授权，方便我们统计数据，授权成功后会自动跳转地图页面，不授权不影响地图功能使用。</text>
+    </view>
+  </view>
+  <text>\n\n\n\n</text>
+  <view class="nickname"> <text>{{nickName}}</text></view>
+    <text>\n\n</text>
+  <image class="headimg" src="{{avatarUrl}}"></image>
+  <view > <text>{{gender}}</text></view>
+  <text>\n\n</text>
+  <button  bindtap="login" >授权登录</button>
+
+</view>

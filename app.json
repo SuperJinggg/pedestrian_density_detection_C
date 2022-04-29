@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/homepage/homepage",
+        "pages/map/map"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "black"
+    },
+    "style": "v2",
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/homepage/homepage",
+                "text": "我的",
+                "iconPath": "/images/myoff.png",
+                "selectedIconPath": "/images/myon.png"
+            },
+            {
+                "pagePath": "pages/map/map",
+                "text": "地图",
+                "iconPath": "/images/mapoff.png",
+                "selectedIconPath": "/images/mapon.png"
+            }
+        ]
+    },
+    "sitemapLocation": "sitemap.json"
+}

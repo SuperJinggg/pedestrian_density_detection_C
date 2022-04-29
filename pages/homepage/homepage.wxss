@@ -1,0 +1,99 @@
+
+
+
+@import "/app.wxss";
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.pageContainer{
+  min-height: 100vh;
+  background-color: rgb(242, 242, 242);
+}
+.box {
+  width: 702rpx;
+  margin: 10rpx auto;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.head{
+  widows: 100px;
+  height: 100px;
+  border-radius:50px;
+}
+.r {
+  white-space: nowrap;
+  animation: 10s loop linear infinite normal;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 26rpx;
+  color: #333;
+}
+.button{
+  width:80%;
+  margin:30px auto 0;
+  text-align: center;
+
+ }
+ .nickname{
+  width: 80%;
+  margin:0 auto;
+  text-align: center;
+  font-size: 2em;
+ }
+.headimg{
+  margin: 0 auto;  
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 161rpx;
+  height: 161rpx;
+  border-radius: 200px;
+ }
+
+.line1{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis; 
+}
+ 
+.open-data-userAvatarUrl {
+  width: 160rpx;
+  height: 160rpx;
+  display: block;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 40rpx auto;
+}
+.open-data-userNickName{
+  max-width: 105rpx;
+  display:block;
+}
+.usermotto {
+  margin-top: 200px;
+}
+@keyframes loop {
+  0% {
+    transform: translateX(350px);
+    -webkit-transform: translateX(350px);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes loop {
+  0% {
+    transform: translateX(300px);
+    -webkit-transform: translateX(300px);
+  }
+
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }}
